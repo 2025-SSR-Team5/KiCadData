@@ -81,6 +81,46 @@
 				(justify left top)
 			)
 		)
+		(pin "EMERGENCY" input
+			(at 157.48 96.52 180)
+			(uuid "71449192-ed8a-434c-937f-40cab61da526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GNDPWR" output
+			(at 184.15 121.92 270)
+			(uuid "3ca11358-8a76-46a1-ab77-09ba720e05be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCPWR" input
+			(at 179.07 74.93 90)
+			(uuid "6b92ab2d-7afa-4599-802c-1afb6112064e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOAD" input
+			(at 194.31 74.93 90)
+			(uuid "4adb8ece-9d6a-4569-95ac-1ac7868e7366")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "maincircuit"
 				(path "/b36a1c5d-9b1c-49bd-973d-5278695022aa"
