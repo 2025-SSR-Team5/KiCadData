@@ -148,7 +148,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -250,12 +250,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|2463800|2451100|aef6b5b4-2237-4212-9fe2-345fc709a147|6052c27f-68ea-4b7e-bedf-b8e58073e770|/5d3df3fe-7e3b-4160-97c0-5ac0f3e5bb82|/5d3df3fe-7e3b-4160-97c0-5ac0f3e5bb82|/5d3df3fe-7e3b-4160-97c0-5ac0f3e5bb82",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
